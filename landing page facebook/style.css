@@ -6,9 +6,21 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 350px;
+  border-radius: 50%;
+  position: relative;
+  top: 25%;
+  left: 47%;
+}
+
+h5{
+  color:white;
+}
+
 body {
   font-size: 15pt;
-  background-color: #125DBE;
+  background-color: orange;
   font-family: 'Roboto', sans-serif;
   position: relative;
   height: 100vh;
@@ -16,8 +28,8 @@ body {
 
 .content {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 55%;
+  left: 63%;
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 10;
