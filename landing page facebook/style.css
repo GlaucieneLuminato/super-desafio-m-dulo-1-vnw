@@ -20,7 +20,7 @@ h5{
 
 body {
   font-size: 15pt;
-  background-color: orange;
+  background-image:url(R.jpeg);
   font-family: 'Roboto', sans-serif;
   position: relative;
   height: 100vh;
@@ -50,7 +50,7 @@ body:after {
   content: "";
   position: absolute;
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-  background-image: url("pexels-photo-2710131.jpeg");
+  background-image:url(R.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -74,6 +74,7 @@ body:after {
   border-radius: 2px;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif;
+  border-radius:20px;
 
 }
 
@@ -88,6 +89,7 @@ body:after {
   border: none;
   outline: none;
   font-family: 'Roboto', sans-serif;
+  border-radius:20px;
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
