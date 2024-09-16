@@ -1,0 +1,79 @@
+$font-titulos: "Kohchasan", georgia, sans-serif, arial;
+$font-texto: "KoHo", georgia, sans-serif, arial;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120vw;
+  list-style: none;
+  font-size: 35px;
+  font-family: "Kodchasan";
+  padding: 10px 50px;
+}
+
+.modelos img {
+  width: 158vw;
+}
+
+.primeiraSessao img {
+  position: relative;
+  width: 50vw;
+  top: 200px;
+  left: 60px;
+}
+
+.primeiraSessao h2,
+div {
+  font-family: "Kodchasan";
+  font-size: 5.8vw;
+  font-weight: 400;
+  position: relative;
+  top: 150px;
+  left: 50px;
+  width: 500px;
+  height: 200px;
+}
+
+.segundaSessao h1 {
+  font-family: "Kodchasan";
+  font-size: 5.8vw;
+  font-weight: 400;
+  position: relative;
+  left: 660px;
+  bottom: 400px;
+}
+
+.segundaSessao p {
+  font-family: "Kodchasan";
+  font-size: 4.0vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 600px;
+  bottom: 520px;
+  width: 700px;
+  height: 300px;
+}
+
+.segundaSessao ul {
+  position: relative;
+  left: 700px;
+  bottom: 150px;
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+
+}

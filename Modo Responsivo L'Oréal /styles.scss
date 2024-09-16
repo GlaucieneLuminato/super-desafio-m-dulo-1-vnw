@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header img {
+  width: 80vw;
+  margin-left: 300px;
+}
+
+header ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 120vw;
+  list-style: none;
+  font-size: 8.8vw;
+  font-family: "Kodchasan";
+  margin: 90px;
+}
+
+.primeiraSessao img {
+  position: relative;
+  width: 110vw;
+  top: 30px;
+  left: 150px;
+}
+
+.segundaSessao h1 {
+  font-family: "Kodchasan";
+  font-size: 8.8vw;
+  font-weight: 400;
+  position: relative;
+  left: 200px;
+  bottom: -100px;
+}
+
+.segundaSessao h2,
+div {
+  font-family: "Kodchasan";
+  font-size: 8.8vw;
+  font-weight: 400;
+  position: relative;
+  top: 100px;
+  left: 80px;
+  width: 110vw;
+  height: 30vh;
+}
+
+.segundaSessao p {
+  font-family: "Kodchasan";
+  font-size: 5.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 50px;
+  top: 60px;
+  width: 120vw;
+  height: 25vh;
+}
+
+.segundaSessao img {
+  position: relative;
+  left: 390px;
+  bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  width: 40%;
+  padding: 50px;
+}
