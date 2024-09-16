@@ -1,0 +1,272 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height:10vh;
+  display:flex;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+ul{
+  display:flex;
+  justify-content:space-between; 
+  width:30vw;
+  list-style:none;
+  align-items: center;
+  font-size: 24px; 
+  font-family:"Poppins "; 
+}
+
+button, .app{
+  background-color: #ff0000;
+  border:none;
+  border-radius:20px;
+  padding:13px;
+  color:white;
+  margin:60px;
+  width:20vw;
+  font-size:25px;
+  
+}
+
+.primeiraSessao img{
+  width:350px;
+  height:350px;
+}
+
+section{
+  display:flex;
+  justify-content: space-around; 
+}
+
+.primeiraSessao h1{
+  font-family: "Koh Santepheap";
+  font-size:40px;
+  font-weight:400; 
+  width:26vw;
+  margin:50px;
+  text-align:center;
+}
+.primeiraSessao p {
+  font-family: "Poppins";
+  text-align:center;
+  margin:100px 50px;
+  font-size:30px;
+}
+
+.segundaSessao{
+  width:520px;
+  height:128px ;
+}
+
+.segundaSessao img{
+  width:392px;
+  height:300px;
+  margin-left:90px;
+  border-radius: 16px;
+}
+
+.segundaSessao h4{
+  color:#ff0000;
+  font-size:25px;
+  margin-left:50px;
+  width:113vw;
+}
+
+.segundaSessao h2{
+  font-family: "Koh Santepheap";
+  font-size:40px;
+  font-weight:400; 
+  width:26vw;
+  margin:5px 150px;
+  text-align:center;
+}
+
+.segundaSessao p{
+  width:520px;
+  height:40px;
+  font-family: "Poppins";
+  font-size:30px;
+  font-weight:400px;
+  color:#232323;
+  text-align: center;
+  margin:50px;
+}
+
+.terceiraSessao{
+  text-align: center;
+}
+
+.terceiraSessao h2{
+  text-align: center;
+  font-family: "Koh Santepheap";
+  font-size:40px; 
+  font-weight:400; 
+  position: relative; 
+  left:490px ;
+  top:250px ;
+
+}
+
+
+.sessaoCards{
+  display:flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.sessaoCards div{
+  background-color:#f8f5f2;
+  width:25vw;
+  border-radius:10px;
+  padding:0px 30px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  position:relative;
+  top:400px;
+  margin:20px;
+}
+
+.sessaoCards div{
+  float:bottom;
+  background-color: rgb(236, 196, 141, 0,841);
+}
+
+.sessaoCards img{
+  width:200px;
+  height:200px;
+  position:relative;
+  background:50px;
+  bottom:70px;
+}
+.sessaoCards{
+  padding:20px 0;
+}
+
+.sessaoCards h4{
+  font-family:"Koh Santepheap";
+  font-size:25px;
+  text-align: center;
+  height:30px;
+  position:relative;
+  top:-60px;
+}
+
+.sessaoCards p{
+  font-family:"Poppins";
+  font-size:20px;
+  text-align: center;
+  height:30px;
+  position:relative;
+  top:-55px;
+}
+
+.sessaoCards h5{
+  font-family:"Koh Santepheap "; 
+  font-size: 30px;
+  color:#ff0000;
+  position: relative; 
+  top:-20px;
+}
+
+.quartaSessao h2{
+  align-items: center;
+  font-family:"Koh Santepheap";
+  font-size:36px;
+  font-weight: 350px;
+  position:relative;
+  top:800px;
+  left:-470px;
+}
+
+.fotoperfil1{
+  background-color:#f8f5f2;
+  padding:0px 30px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  position:relative;
+  top:900px;
+  left:-990px;
+  width:500px;
+  height:330px;
+}
+
+.fotoperfil1 img {
+ position: relative; 
+ right:150px;
+ top:20px;
+}
+
+.fotoperfil1 h4{
+  font-family:"Koh Santepheap";
+  font-size: 36px;
+  font-weight:400px;
+  position: relative; 
+  right:100px;
+  top:40px;
+}
+
+.fotoperfil1 p{
+  font-family: "Poppins "; 
+  font-size:30px; 
+  text-align: center;
+  position: relative; 
+  right:30px;
+  top:50px;
+}
+
+.fotoperfil1 figure{
+  position: relative; 
+  right:-30px;
+  top:60px;
+}
+
+.fotoperfil2{
+  background-color:#f8f5f2;
+  padding:0px 30px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  position:relative;
+  top:870px;
+  left:-950px;
+  width:530px ;
+  height:330px;
+  margin:30px;
+}
+
+.fotoperfil2 img{
+ position: relative; 
+ right:150px;
+ top:20px;
+}
+
+.fotoperfil2 h4{
+  font-family:"Koh Santepheap";
+  font-size: 36px;
+  font-weight:400px;
+  position: relative; 
+  right:100px;
+  top:40px;
+}
+
+.fotoperfil2 p{
+  font-family: "Poppins "; 
+  font-size:30px; 
+  text-align: center;
+  position: relative; 
+  right:30px;
+  top:50px;
+}
+
+.fotoperfil2 figure{
+  position: relative; 
+  right:-30px;
+  top:60px;
+}
